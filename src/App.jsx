@@ -11,21 +11,23 @@ export default function App() {
     alert("button clicked");
   }
   return (
-    <div className="flex flex-col gap-2">
-      <div>
-        <Button size={50} color="black" onClick={handelClick} />
-        <Button size={75} color="white" disabled />
+    <>
+      <div className="flex flex-col gap-2 w-4/12 m-auto mt-3">
+        <div className="button bg-red-300 p-1">
+          <Button size={50} color="black" onClick={handelClick} />
+          <Button size={75} color="white" disabled />
+        </div>
+        <div className="alert bg-zinc-200">
+          <Alert color="red" icon={<BsInfoCircleFill />} />
+        </div>
+        <div className="badge bg-lime-100">
+          <Badge color="green" size={600} icon={<BsFillBadge3DFill />} />
+          <Badge color="red" size={300} icon={<BsFillBadge3DFill />} />
+        </div>
+        <div className="card bg-green-200">
+          <Card href="www.google.com" imgAlt="imgpic" imgSrc={Pic} />
+        </div>
       </div>
-      <div>
-        <Alert color="red" icon={<BsInfoCircleFill />} />
-      </div>
-      <div>
-        <Badge color="red" size={600} icon={<BsFillBadge3DFill />} />
-        <Badge color="red" size={300} icon={<BsFillBadge3DFill />} />
-      </div>
-      <div>
-        <Card href="www.google.com" imgAlt="imgpic" imgSrc={Pic} />
-      </div>
-    </div>
+    </>
   );
 }
