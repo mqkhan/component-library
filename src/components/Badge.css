@@ -1,0 +1,18 @@
+.badge {
+  padding: 5px;
+}
+
+.small {
+  width: 20px;
+  height: 30px;
+}
+.medium {
+  width: 30px;
+  height: 40px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}

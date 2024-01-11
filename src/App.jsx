@@ -20,12 +20,12 @@ export default function App() {
         <div className="alert bg-zinc-200">
           <Alert color="red" icon={<BsInfoCircleFill />} />
         </div>
-        <div className="badge bg-lime-100">
-          <Badge color="green" size={600} icon={<BsFillBadge3DFill />} />
-          <Badge color="red" size={300} icon={<BsFillBadge3DFill />} />
+        <div className="badge text-2xl bg-lime-100 gap-2">
+          <Badge color="green" size={"small"} icon={<BsFillBadge3DFill />} />
+          <Badge color="red" size={"medium"} icon={<BsFillBadge3DFill />} />
         </div>
         <div className="card bg-green-200">
-          <Card href="www.google.com" imgAlt="imgpic" imgSrc={Pic} />
+          <Card href="https://www.google.com" imgAlt="imgpic" imgSrc={Pic} />
         </div>
       </div>
     </>
