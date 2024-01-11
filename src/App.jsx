@@ -1,10 +1,10 @@
 import { BsFillBadge3DFill } from "react-icons/bs";
 import { BsInfoCircleFill } from "react-icons/bs";
-import Button from "../components/Button";
-import Alert from "../components/Alert";
-import Badge from "../components/Badge";
-import Card from "../components/Card";
-import Pic from "../components/Pic.jpg";
+import Button from "./components/Button";
+import Alert from "./components/Alert";
+import Badge from "./components/Badge";
+import Card from "./components/Card";
+import Pic from "./components/Pic.jpg";
 
 export default function App() {
   function handelClick() {
